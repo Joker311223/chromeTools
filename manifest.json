@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Switch to BI Tab",
+  "version": "1.0",
+  "description": "Switch to BI tab when URL contains useStack=1 parameter",
+  "permissions": [
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
